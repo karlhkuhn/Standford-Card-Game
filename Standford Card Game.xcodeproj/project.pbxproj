@@ -14,6 +14,8 @@
 		EA256373287A852A00DBF4B8 /* Standford_Card_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA256372287A852A00DBF4B8 /* Standford_Card_GameTests.swift */; };
 		EA25637D287A852A00DBF4B8 /* Standford_Card_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA25637C287A852A00DBF4B8 /* Standford_Card_GameUITests.swift */; };
 		EA25637F287A852A00DBF4B8 /* Standford_Card_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA25637E287A852A00DBF4B8 /* Standford_Card_GameUITestsLaunchTests.swift */; };
+		EA30BB45287C52DD00F9A5BF /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30BB44287C52DD00F9A5BF /* MemoryGame.swift */; };
+		EA30BB47287C540800F9A5BF /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30BB46287C540800F9A5BF /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		EA256378287A852A00DBF4B8 /* Standford Card GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Standford Card GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA25637C287A852A00DBF4B8 /* Standford_Card_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standford_Card_GameUITests.swift; sourceTree = "<group>"; };
 		EA25637E287A852A00DBF4B8 /* Standford_Card_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standford_Card_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA30BB44287C52DD00F9A5BF /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		EA30BB46287C540800F9A5BF /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				EA256361287A852900DBF4B8 /* Standford_Card_GameApp.swift */,
 				EA256363287A852900DBF4B8 /* ContentView.swift */,
+				EA30BB44287C52DD00F9A5BF /* MemoryGame.swift */,
+				EA30BB46287C540800F9A5BF /* EmojiMemoryGame.swift */,
 				EA256365287A852A00DBF4B8 /* Assets.xcassets */,
 				EA256367287A852A00DBF4B8 /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA30BB45287C52DD00F9A5BF /* MemoryGame.swift in Sources */,
 				EA256364287A852900DBF4B8 /* ContentView.swift in Sources */,
 				EA256362287A852900DBF4B8 /* Standford_Card_GameApp.swift in Sources */,
+				EA30BB47287C540800F9A5BF /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
